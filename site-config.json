@@ -5,5 +5,7 @@
     "branch": "main",
     "path": "/docs"
   },
-  "installation_target": "https://play.google.com/store/apps/details?id=com.albacheck"
+  "installation_target": "https://play.google.com/store/apps/details?id=com.albacheck",
+  "google_search_console_property": "https://bygjun.github.io/",
+  "google_sitemap": "https://bygjun.github.io/sitemap.xml"
 }

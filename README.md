@@ -26,3 +26,7 @@ GitHub Pages의 프로젝트 경로에서 제공되는 robots.txt는 도메인 �
 ## 에셋
 
 실제 알바췍 앱 아이콘과 스크린샷, 기존 홍보용 독자적인 햄스터 일러스트를 사용합니다. 글꼴은 Pretendard입니다.
+
+## 검색 도구 소유권
+
+Google Search Console은 호스트 전체 URL 접두사 `https://bygjun.github.io/`와 루트 `https://bygjun.github.io/sitemap.xml`을 사용합니다. 호스트 인증·robots·루트 사이트맵은 [bygjun/bygjun.github.io](https://github.com/bygjun/bygjun.github.io)에서 관리합니다. 홈페이지의 Google 인증 태그를 보존하세요. 이 프로젝트의 기존 sitemap.xml은 네이버 등록과 호환을 위해 유지합니다. 두 XML의 실제 공식 페이지 URL 목록을 함께 유지하세요.
