@@ -1,0 +1,9 @@
+{
+  "repository": "bygjun/albacheck-official",
+  "url": "https://bygjun.github.io/albacheck-official/",
+  "publish_source": {
+    "branch": "main",
+    "path": "/docs"
+  },
+  "installation_target": "https://play.google.com/store/apps/details?id=com.albacheck"
+}

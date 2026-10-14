@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bygjun.github.io/albacheck-official/sitemap.xml
