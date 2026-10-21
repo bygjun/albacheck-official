@@ -30,3 +30,7 @@ GitHub Pages의 프로젝트 경로에서 제공되는 robots.txt는 도메인 �
 ## 검색 도구 소유권
 
 Google Search Console은 호스트 전체 URL 접두사 `https://bygjun.github.io/`와 루트 `https://bygjun.github.io/sitemap.xml`을 사용합니다. 호스트 인증·robots·루트 사이트맵은 [bygjun/bygjun.github.io](https://github.com/bygjun/bygjun.github.io)에서 관리합니다. 홈페이지의 Google 인증 태그를 보존하세요. 이 프로젝트의 기존 sitemap.xml은 네이버 등록과 호환을 위해 유지합니다. 두 XML의 실제 공식 페이지 URL 목록을 함께 유지하세요.
+
+## Instagram 짧은 설치 주소
+
+`https://bygjun.github.io/albacheck-official/ig/`는 Instagram 프로필에서 사용하는 설치 이동 주소입니다. 쿼리가 없는 자체 도메인 주소로 입력 길이와 percent 중복 인코딩 문제를 피합니다. 0초 meta refresh와 동일한 목적지의 수동 설치 버튼을 제공하며, 목적지는 `com.albacheck`의 Google Play로 고정합니다. `utm_source=ig`, `utm_medium=social`, `utm_campaign=albacheck_profile`, `utm_content=link_in_bio`를 top-level과 encoded Install Referrer에 함께 전달합니다. 다른 홈페이지 CTA의 website 출처는 유지합니다. 이동 페이지는 noindex이며 사이트맵에 추가하지 않습니다. 페이지 접근 또는 정상 이동은 실제 설치 완료나 귀속 성공을 뜻하지 않습니다.
