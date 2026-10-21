@@ -26,7 +26,7 @@ for file in root.rglob('index.html'):
    if u.startswith('/') and not u.startswith('//'):
     assert parsed.path.startswith('/albacheck-official/'),(file,u);target=root/parsed.path.removeprefix('/albacheck-official/');assert target.exists(),(file,u)
    if u.startswith('https://play.google.com'):
-    q=parse_qs(parsed.query);assert q['id']==['com.albacheck'];assert q['utm_source']==['website']
+    q=parse_qs(parsed.query);assert q['id']==['com.albacheck'];assert q['utm_source']==['website'];assert q.get('utm_medium') and q.get('utm_campaign');assert len(q.get('referrer', []))==1;ref=parse_qs(q['referrer'][0]);assert all(ref.get(k)==q[k] for k in ('utm_source','utm_medium','utm_campaign','utm_content') if k in q),(file,u);assert len(q['referrer'][0])<=512
   if t=='img':assert 'alt' in a,(file,a)
  print('PASS',file.relative_to(root))
 ET.parse(root/'sitemap.xml');assert '/sitemap.xml' in (root/'robots.txt').read_text()
